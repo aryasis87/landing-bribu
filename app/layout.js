@@ -4,10 +4,10 @@ import "./globals.css";
 const interTight = Inter_Tight({ variable: "--font-intertight", subsets: ["latin"], weight: ["600", "700", "800"] });
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 
-const __jsonld = {"@context":"https://schema.org","@type":"WebSite","name":"Bribu","description":"Platform kontes desain online","url":"https://landing-bribu.vercel.app","inLanguage":"id"};
+const __jsonld = {"@context":"https://schema.org","@type":"WebSite","name":"Bribu","description":"Platform kontes desain online","url":"https://bribu.pintuweb.com","inLanguage":"id"};
 
 export const metadata = {
-  metadataBase: new URL("https://landing-bribu.vercel.app"),
+  metadataBase: new URL("https://bribu.pintuweb.com"),
   title: "Bribu — Kontes Desain untuk Bisnismu",
   description: "Bribu: temukan desainer berbakat dan dapatkan desain profesional melalui kontes desain online yang cepat dan terpercaya.",
   applicationName: "Bribu",
@@ -15,11 +15,11 @@ export const metadata = {
   authors: [{ name: "Bribu" }],
   creator: "Bribu",
   publisher: "Bribu",
-  alternates: { canonical: "https://landing-bribu.vercel.app" },
+  alternates: { canonical: "https://bribu.pintuweb.com" },
   openGraph: {
     type: "website",
     locale: "id_ID",
-    url: "https://landing-bribu.vercel.app",
+    url: "https://bribu.pintuweb.com",
     siteName: "Bribu",
     title: "Bribu — Kontes Desain untuk Bisnismu",
     description: "Bribu: temukan desainer berbakat dan dapatkan desain profesional melalui kontes desain online yang cepat dan terpercaya.",

@@ -1,5 +1,5 @@
 export default function sitemap() {
   return [
-    { url: "https://landing-bribu.vercel.app", lastModified: new Date(), changeFrequency: "monthly", priority: 1 },
+    { url: "https://bribu.pintuweb.com", lastModified: new Date(), changeFrequency: "monthly", priority: 1 },
   ];
 }
