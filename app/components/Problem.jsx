@@ -63,8 +63,8 @@ const Problem = () => {
           alignItems: 'center',
           padding: '0.5rem 1rem',
           borderRadius: '999px',
-          background: '#fee2e2',
-          color: '#dc2626',
+          background: '#fbe9e9',
+          color: '#a4161a',
           marginBottom: '1rem'
         }}>
           <FiFrown style={{ marginRight: '0.5rem' }} />
@@ -81,8 +81,8 @@ const Problem = () => {
         
         <div style={problemGridStyle}>
           <div style={problemCardStyle}>
-            <div style={{ ...iconContainerStyle, background: '#fee2e2' }}>
-              <FiClock style={{ color: '#dc2626', fontSize: '1.5rem' }} />
+            <div style={{ ...iconContainerStyle, background: '#fbe9e9' }}>
+              <FiClock style={{ color: '#a4161a', fontSize: '1.5rem' }} />
             </div>
             <h3 style={{ fontWeight: 600, marginBottom: '0.75rem', fontSize: '1.25rem', color: "black" }}>Proses Lama</h3>
             <p style={{ color: '#6b7280' }}>
